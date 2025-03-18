@@ -1,8 +1,36 @@
-<app-input
-  id="usr"
-  label="Usuario"
-  placeholder="Ingrese su usuario"
-  formControlName="usr"
-  size="large"
-  additionalClasses="bg-transparent md:bg-water-50"
-/>
+<div class="flex flex-col h-screen w-screen items-center justify-center">
+  <!-- FORMULARIO -->
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <!-- INPUT USUARIO -->
+    <app-input
+      id="usr"
+      label="Usuario"
+      placeholder="Ingrese su usuario"
+      formControlName="usr"
+      size="large"
+      additionalClasses="bg-transparent md:bg-water-50"
+      [hasError]="!!getErrorMessage('usr')"
+      [errorMessage]="getErrorMessage('usr')"
+    />
+    <!-- INPUT CONTRASEÑA -->
+    <app-input
+      id="pwd"
+      label="Clave"
+      placeholder="Ingrese su usuario"
+      formControlName="pwd"
+      size="large"
+      additionalClasses="bg-transparent md:bg-water-50"
+      [isPwd]="true"
+      [hasError]="!!getErrorMessage('pwd')"
+      [errorMessage]="getErrorMessage('pwd')"
+    />
+    <!-- BOTON PARA LOGEARSE -->
+    <app-button
+      color="water-deep"
+      label="Iniciar sesión"
+      [additionalClasses]="'w-full mt-5'"
+      type="submit"
+      size="large"
+    />
+  </form>
+</div>
