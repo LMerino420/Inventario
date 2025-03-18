@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, tap, throwError } from 'rxjs';
-import { enviroment } from '../../enviroments/environment';
+import { environment } from '../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root',
 })
 export class Commons {
   // URL DE API
-  private _URL = enviroment.API_URL;
+  private _URL = environment.API_URL;
 
   constructor(private http: HttpClient) {}
 

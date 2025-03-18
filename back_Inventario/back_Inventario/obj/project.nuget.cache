@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mVyYhB+V+o4=",
+  "dgSpecHash": "p2+mkyqNllU=",
   "success": true,
   "projectFilePath": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\back_Inventario.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lev.merino\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
-    "C:\\Users\\lev.merino\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\lev.merino\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "C:\\Users\\lev.merino\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\lev.merino\\.nuget\\packages\\scalar.aspnetcore\\2.0.36\\scalar.aspnetcore.2.0.36.nupkg.sha512"
   ],
   "logs": []
 }
