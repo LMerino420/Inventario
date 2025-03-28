@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|c:\\users\\lev.merino\\desktop\\personales\\inventario\\back_inventario\\back_inventario\\models\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD8918A-988E-4950-9B5D-E3B99E61E301}|back_Inventario\\back_Inventario.csproj|solutionrelative:back_inventario\\models\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Models\\Dtos\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "back_Inventario\\Models\\Dtos\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Models\\Dtos\\TokenResponseDto.cs",
+              "RelativeToolTip": "back_Inventario\\Models\\Dtos\\TokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:54:55.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "back_Inventario\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Services\\IAuthService.cs",
+              "RelativeToolTip": "back_Inventario\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:22:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "back_Inventario\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Services\\AuthService.cs",
+              "RelativeToolTip": "back_Inventario\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwF4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:53:32.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "back_Inventario\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "back_Inventario\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:35:38.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Program.cs",
               "RelativeDocumentMoniker": "back_Inventario\\Program.cs",
               "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\Program.cs",
               "RelativeToolTip": "back_Inventario\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:23:32.805Z",
+              "WhenOpened": "2025-03-25T21:21:51.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\appsettings.json",
+              "RelativeDocumentMoniker": "back_Inventario\\appsettings.json",
+              "ToolTip": "C:\\Users\\lev.merino\\Desktop\\Personales\\Inventario\\back_Inventario\\back_Inventario\\appsettings.json",
+              "RelativeToolTip": "back_Inventario\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T21:19:50.42Z",
               "EditorCaption": ""
             }
           ]
