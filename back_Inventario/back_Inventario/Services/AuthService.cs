@@ -61,17 +61,20 @@ namespace back_Inventario.Services
         //---------------------------
         public async Task<TokenResponseDto> CreateTokenResponse(UserAccess? usr)
         {
+            var DataJWT = await CreateJWT(usr);
+
             return new TokenResponseDto
             {
-                AccessToken = CreateJWT(usr),
-                RefreshToken = await CreateAndSaveRefreshToken(usr)
+                AccessToken = DataJWT.Token,
+                RefreshToken = await CreateAndSaveRefreshToken(usr),
+                ExpireToken = DataJWT.ExpireToken
             };
         }
 
         //--------------
         //CREAR JWT
         //--------------
-        private string CreateJWT(UserAccess usr)
+        private async Task<JwtDto> CreateJWT(UserAccess usr)
         {
             //Variable para almacenar la informacion de JWT
             var claims = new List<Claim>
@@ -86,17 +89,22 @@ namespace back_Inventario.Services
                 Encoding.UTF8.GetBytes(config.GetValue<string>("AppSettings:Token")!));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+            var exp = DateTime.UtcNow.AddHours(2);
 
             //Descripcion del JSON que contentra el token
             var tokenDescriptor = new JwtSecurityToken(
                 issuer: config.GetValue<string>("AppSettings:Issuer"),
                 audience: config.GetValue<string>("AppSettings:Audience"),
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(4),
+                expires: exp,
                 signingCredentials: creds
                 );
 
-            return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
+            return new JwtDto
+            {
+                Token = new JwtSecurityTokenHandler().WriteToken(tokenDescriptor),
+                ExpireToken = exp
+            };
         }
 
         //------------------------
